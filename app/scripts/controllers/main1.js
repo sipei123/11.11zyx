@@ -8,12 +8,11 @@
  * Controller of the 1111xxxxzyApp
  */
 angular.module('1111xxxxzyApp')
-  .controller('wyc', function ($scope,$http) {
+  .controller('jgr', function ($scope,$http) {
       $http({
 	   	  		method:'get',
-	   	  		url:'http://www.somenote.cn:1602/list1'
+	   	  		url:'http://www.somenote.cn:1602/list2'
 	   	  	}).success(function(e){
-	   	  		$scope.wyc=e;
+	   	  		$scope.jgr=e;
 	   	  	})
-  })
-  
+  });
